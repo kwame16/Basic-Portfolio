@@ -15,11 +15,15 @@ header {
     padding: 20px;
     margin: 5px;
     width: 960px;
+    float: left;
+    float:inline-start;
 }
 
 nav {
     background-color: #777777;
     text-align: right;
+    float: right;
+    float: inline-end;
     /* margin: 5px;
     width: 960px; */
 }
