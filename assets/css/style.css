@@ -3,29 +3,30 @@ body {
     color: #777777;
     background: #ffffff;
     border-color: #dddddd;
+    border: 10px;
     width: 960px;
-    color: #777777
     
 }
 
 header {
-    background: #ffffff;
-    /* color:  */
-    border-color: #cccccc;
+    background:#4aaaa5;
     padding: 20px;
     margin: 5px;
     width: 960px;
     float: left;
-    float:inline-start;
+    float:inline;
+    position: relative;
 }
 
-nav {
-    background-color: #777777;
-    text-align: right;
+.list {
+    color: #777777;
+    background-color: #ffffff;
     float: right;
-    float: inline-end;
-    /* margin: 5px;
-    width: 960px; */
+    float: inline;
+    position: relative;
+}
+.list-1 {
+    right: 40px;
 }
 
 h1 {
