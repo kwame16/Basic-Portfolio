@@ -12,13 +12,20 @@ body {
 header {
     background:#4aaaa5;
     border-color: #cccccc;
-    padding: 5px;
-    margin: 50px 20px 0px 50px;
+    padding: 20px;
+    /* margin: 50px 20px 0px 50px; */
     width: 960px;
-    float: center;
-    float:inline;
-    position: relative;
+    height: 60px;
+    /* float: center; */
+    /* float:inline; */
+    /* position: relative; */
     text-align: center;
+}
+
+h1 {
+    float: left;
+    font-size: 24px;
+    margin: 10px;
 }
 
 .list {
@@ -29,17 +36,19 @@ header {
     position: relative;
 }
 
-.list-1 {
-    /* right: 40px; */
+li {
+    float: left;
+    margin-right: 20px;
+    list-style: none;
 }
 
-/* .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-} */
+ul {
+    float: right;
+    margin-right: 20px;
 
-h1 {
+}
+
+h2 {
     color: aqua;
     font-size: 20px;
     text-align: left;
