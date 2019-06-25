@@ -1,44 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Darius McPhatter's Basic Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Darius McPhatter</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<!-- <ul>
-        <li><strong>Email:</strong> <a href="Dmcphatter13@gmail.com">Dmcphatter13@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="Kwame16">kwame16</a></li>
-        <li><strong>Portfolio:</strong><a href="Coming Soon">Coming Soon</a></li>
-    </ul> -->
-
 <body>
-    <!-- <div class="container"> -->
-        <!-- <section id="aboutnav"> -->
-            <header>
-                <nav>
-                 <h1>Darius McPhatter</h1>
-                    <ul class="list">
-                            <li class="list-1"> <a href="index.html">About</a> </li>
-                            <li class="list-2"> <a href="portfolio.html">Portfolio</a></li>
-                            <li class="list-3"> <a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-           
-        </section>
-    <!-- </div> -->
 
-    <div>
-        <h2>Contact</h2>
-    <!-- <p>My name is Darius McPhatter, welcome to my first webpage design. I'm currently enrolled in Rutgers Coding Bootcamp. 
-    I'm 28 years old with a landscaping business, a partnership with uber, and a mobile DJ. 
-    I completed college six years ago at Johnson & Wales University with an Associates degree in CADD and Bachelor's degree in Enginering Design. 
-    I like to believe that I picked up a minor in Culinary also because I lived with Culinary students for three of the four years off campus. 
-    I'm currently enrolled in this program so that I can learn some new skills and have a career change.</p> -->
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Darius McPhatter</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
+
 </html>
